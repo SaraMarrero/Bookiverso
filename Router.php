@@ -67,18 +67,4 @@
             
             include __DIR__."/views/layoutLoginRegister.php";
         }
-
-        public function renderAdmin($view, $datos = []) {
-            foreach($datos as $key => $value) {
-                $$key = $value;
-            }
-
-            ob_start();
-
-            include __DIR__."/views/$view.php";
-
-            $contenido = ob_get_clean();
-
-            include __DIR__."/views/admin/layout.php";
-        }
     }
