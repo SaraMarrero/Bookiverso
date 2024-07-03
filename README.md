@@ -20,7 +20,7 @@ El usuario que aún no tenga cuenta o no haya hecho login con sus datos solo pod
 Un usuario ya con cuenta y logueado tiene varias funcionalidades:
 * Puede añadir libros al carrito, en la parte superior hay varios enlaces que dividen los libros en venta (cada página de una categoría distinta), en cada página se muestra un libro, su valoración, su nombre, su formato, su idioma y justo debajo el botón de añadir al carrito.
 * Una vez tenga elementos en el carrito, puede darle a descargar todos, eliminar todos o eliminar de manera individual.
-* Puede editar y borrar su propio perfil
+* Puede editar y borrar su propio perfil*
 
 ## 🪛Tecnologías
 Para llevar a cabo la realización de este proyecto, he utilizado:
@@ -36,4 +36,4 @@ Para llevar a cabo la realización de este proyecto, he utilizado:
 * Github
 
 ## 👩🏻‍💻Autora
-Sara Marrero Miranda
+* Sara Marrero Miranda

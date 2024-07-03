@@ -59,23 +59,23 @@
     $router->get('/usuario/derechos/terminosYCondiciones', [DerechosController::class, 'terminosYCondiciones']);
 
     // Administrador //
-    $router->get('/admin/ver/verComics', [LibrosController::class, 'mostrarComicsAdmin']);
-    $router->get('/admin/ver/verFantasia', [LibrosController::class, 'mostrarFantasiaAdmin']);
-    $router->get('/admin/ver/verFiccion', [LibrosController::class, 'mostrarFiccionAdmin']);
-    $router->get('/admin/ver/verTerror', [LibrosController::class, 'mostrarTerrorAdmin']);
-    $router->get('/admin/ver/verRomance', [LibrosController::class, 'mostrarRomanceAdmin']);
-    $router->get('/admin/ver/verCategorias', [CategoriasController::class, 'mostrarCategorias']);
+    // $router->get('/admin/ver/verComics', [LibrosController::class, 'mostrarComicsAdmin']);
+    // $router->get('/admin/ver/verFantasia', [LibrosController::class, 'mostrarFantasiaAdmin']);
+    // $router->get('/admin/ver/verFiccion', [LibrosController::class, 'mostrarFiccionAdmin']);
+    // $router->get('/admin/ver/verTerror', [LibrosController::class, 'mostrarTerrorAdmin']);
+    // $router->get('/admin/ver/verRomance', [LibrosController::class, 'mostrarRomanceAdmin']);
+    // $router->get('/admin/ver/verCategorias', [CategoriasController::class, 'mostrarCategorias']);
 
-    $router->get('/admin/crear/addCategoria', [CategoriasController::class, 'crearCategoria']);
-    $router->post('/admin/crear/addCategoria', [CategoriasController::class, 'crearCategoria']);
+    // $router->get('/admin/crear/addCategoria', [CategoriasController::class, 'crearCategoria']);
+    // $router->post('/admin/crear/addCategoria', [CategoriasController::class, 'crearCategoria']);
 
-    $router->get('/admin/crear/addLibro', [LibrosController::class, 'crearLibro']);
-    $router->post('/admin/crear/addLibro', [LibrosController::class, 'crearLibro']);
+    // $router->get('/admin/crear/addLibro', [LibrosController::class, 'crearLibro']);
+    // $router->post('/admin/crear/addLibro', [LibrosController::class, 'crearLibro']);
 
-    $router->get('/admin/borrar/borrarLibro', [LibrosController::class, 'borrarLibro']);
-    $router->get('/admin/borrar/borrarCategoria', [CategoriasController::class, 'borrarCategoria']);
+    // $router->get('/admin/borrar/borrarLibro', [LibrosController::class, 'borrarLibro']);
+    // $router->get('/admin/borrar/borrarCategoria', [CategoriasController::class, 'borrarCategoria']);
 
-    $router->get('/admin/editar/editLibros', [LibrosController::class, 'editarLibro']);
-    $router->post('/admin/editar/editLibros', [LibrosController::class, 'editarLibro']);
+    // $router->get('/admin/editar/editLibros', [LibrosController::class, 'editarLibro']);
+    // $router->post('/admin/editar/editLibros', [LibrosController::class, 'editarLibro']);
 
     $router->comprobarRutas();
